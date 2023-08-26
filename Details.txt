@@ -95,7 +95,15 @@ Next Session:
 Task:
   Day - 37:
     **Mentor and Student Assigning with Database**
-  
+
+
+  Api for Assigning a Student to a Mentor
+
+  /assign-student/<mentor-id>
+
+    Body: Student Details
+
   Submit it Completely Once we discuss on the Cloud DB Concepts
+
 
 
