@@ -1,0 +1,101 @@
+
+
+Recap/Revise:
+
+  1. NodesJS
+
+    nodejs is a js runtime environment, where we can execute js without web browser
+
+    running js file in nodejs environment:
+      cannot access window functions/attributes like alert, document because they can only be used in web browser
+
+    global var --> console.log(global);
+
+    command line arguements
+      - process.argv
+        custom arguements should be taken from second index value
+      - Getting Inputs from CMD line arguements
+  
+  2. inbuilt module/package as utility
+      - OS - operating system
+        reading memory and system info
+      - fs - file system
+        create new files in the file system
+        create files using for loop
+        readFile with and without encoding
+        appendFile and appendFile with newline
+        deletefile - unlink
+  
+  3. Common JS vs ES Module
+
+    Express:
+
+    express - web framework http server applcation which lets us create APIs
+      and use those APIs in our application
+
+      sample API using express
+  
+  4. using external third party library,
+
+  
+  5. URL Params:
+    Path Params: /:id/name
+
+        id or name is the path variable/param
+      request.params
+    
+    Query Params:
+      request.query
+
+    CRUD:
+      Create ---> POST
+      Read ---> GET
+      Update ---> PUT, PATCH
+      Delete ---> DELETE
+    
+    Intro Post-Man
+
+    Curl --> curl -X POST -H "Content-Type: application/json" -d '{"title": "Jogging", "isComplete": false, "dueDate": "2023-09-17" }' http://localhost:5050/api/todos
+  
+  6. Request:
+    Request is an object with pre-defined key<->value pairs & methods/functions
+    used to operate on top of the request in-coming
+
+    Eg: request.body gives the payload, req.params['<param-name>'] gives the path param
+
+    reference: https://www.tutorialspoint.com/nodejs/nodejs_request_object.htm
+
+  7. Resposne:
+      response is an object with pre-defined key<->value pairs & methods
+      used to operate on top of the response out-going
+
+      reference: https://www.tutorialspoint.com/nodejs/nodejs_response_object.htm
+
+  8. router --> express.Router()
+
+    individual routers for each entities or objects in an application
+
+
+Topics:
+
+  Mongoose:
+    Structured Connection/dealing with MongoDB
+
+    Schema: https://mongoosejs.com/docs/guide.html
+
+  Connection to DB:
+    1. Connecting to Local Mongo DB and Creating records
+    2. Connection using Top Level Await
+
+Next Session:
+  3. Cloud Database 
+  4. Connecting to Cloud Mongo DB and Creating records
+  5. Front-End <-> Backend Connectivity
+
+Task:
+  Day - 37:
+    **Mentor and Student Assigning with Database**
+  
+  Submit it Completely Once we discuss on the Cloud DB Concepts
+
+
